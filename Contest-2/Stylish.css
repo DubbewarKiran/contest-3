@@ -1,0 +1,8 @@
+.navi,leftnav,rightnav {
+    background-color: black;
+    color: white;
+
+}
+.rightnav{
+    float: right
+}
