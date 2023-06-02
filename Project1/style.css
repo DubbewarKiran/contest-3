@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    z-index: 1000;
+}
+.leftnav{
+    padding: 20px;
+    font-size: 25px;
+    
+}
+
+.navItems a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* .home-container */
+
+.home-container{
+    position: relative;
+    padding: 10px;
+    top: 78px;
+}
+
+.homecontent{
+    display: flex;
+    justify-content: center;
+}
+
+.homecontent .img, .homecontent .homestory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;   
+    
+}
+
+.homestory{
+    font-style: italic;
+    font-size: 32px;
+}
+.homestory span{
+    color:red;
+}
+
+/* Profile-container */
+
+.profile-container{
+    display: flex;
+    background-color:whitesmoke;
+    padding: 3%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.profile-container .roadmap, .profile-container .summary{
+    width: 40%;
+}
+.summary{
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.profile-container span{
+    
+    color: rgb(73, 14, 200);
+}
+
+/* .about-container */
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 0px;
+    background-color:powderblue;
+    
+    
+}
+.about-container .about-items{
+    display: flex;
+    color:red;
+    width: 100%;
+    justify-content: space-around;
+    padding: 4% 0px;
+    gap: 25px 1px;
+   
+    flex-wrap: wrap;
+}
+.about-items .item{
+   
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 24px;
+    border-bottom:5px solid palevioletred;
+    border: 1px solid solid red;
+
+    color: blue;
+    
+    
+   
+    
+} 
+
+/* Project-container */
+
+.project-container{
+    /* background-color: bisque;
+    height: 500px;
+    width: 100%;
+    display: grid;
+    padding: 3%;
+    justify-content: start;
+    grid-template-columns: repeat(4,10%);
+   
+    grid-template-rows: repeat(2,20%);
+    gap: 80px 200px; */
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    display: grid;
+    /* helps in adding the columns */
+    grid-template-columns: repeat(4,10%);
+    grid-template-rows: repeat(2, 20%) ;
+    /* column-gap: 20px;
+    row-gap: 10px; */
+    gap: 10px 20px;
+    /* justify-items: start, end, center, stretch; */
+    /* justify-items: stretch; */
+    /* align-items: stretch, start, end, center; */
+    /* align-items: stretch; */
+    /* place-items: align-items justify-items; */
+    /* place-items: center center; */
+    justify-content: start;
+    align-content: stretch;
+    /* place-content: align-content justify-content; */
+   
+}
+.project-container .title{
+    
+}
+.project-container .item{
+    background-color: aqua;
+    height: 30px;
+    gap: 10px 20px;
+}
+.project-items .item{
+   
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 24px;
+    border-bottom:5px solid palevioletred;
+    border: 1px solid solid red;
+
+    color: blue;
+}
